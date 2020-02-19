@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://0.0.0.0:8000/Desktop/hw2-skeleton/Q5/stacked.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Stacked Bar</title>
+        <script type="text/javascript" src="./Stacked Bar_files/d3.v5.min.js"></script>
+
+
+</head>
+
+
+<body data-gr-c-s-loaded="true">
+
+<svg id="chart" width="1000" height="700"><g transform="translate(0,600)" class="x-axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="currentColor" d="M60.5,0.5H840.5"></path><g class="tick" opacity="1" transform="translate(120.42253521126761,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">AL</text></g><g class="tick" opacity="1" transform="translate(230.2816901408451,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">AK</text></g><g class="tick" opacity="1" transform="translate(340.14084507042253,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">AZ</text></g><g class="tick" opacity="1" transform="translate(450,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">AR</text></g><g class="tick" opacity="1" transform="translate(559.8591549295775,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">CA</text></g><g class="tick" opacity="1" transform="translate(669.7183098591549,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">CO</text></g><g class="tick" opacity="1" transform="translate(779.5774647887324,0)"><line stroke="currentColor" y2="6"></line><text fill="currentColor" y="9" dy="0.71em">CT</text></g></g><g transform="translate(60,0)" class="y-axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="end"><path class="domain" stroke="currentColor" d="M-6,600.5H0.5V40.5H-6"></path><g class="tick" opacity="1" transform="translate(0,600.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.0k</text></g><g class="tick" opacity="1" transform="translate(0,544.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.1k</text></g><g class="tick" opacity="1" transform="translate(0,488.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.2k</text></g><g class="tick" opacity="1" transform="translate(0,432.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.3k</text></g><g class="tick" opacity="1" transform="translate(0,376.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.4k</text></g><g class="tick" opacity="1" transform="translate(0,320.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.5k</text></g><g class="tick" opacity="1" transform="translate(0,264.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.6k</text></g><g class="tick" opacity="1" transform="translate(0,208.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.7k</text></g><g class="tick" opacity="1" transform="translate(0,152.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.8k</text></g><g class="tick" opacity="1" transform="translate(0,96.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">0.9k</text></g><g class="tick" opacity="1" transform="translate(0,40.5)"><line stroke="currentColor" x2="-6"></line><text fill="currentColor" x="-9" dy="0.32em">1.0k</text></g></g><text class="x label" text-anchor="end" x="445" y="655" font-size="15px">State</text><text class="y label" text-anchor="end" x="-280" y="10" font-size="15px" transform="rotate(-90)">Number of Earthquakes</text><text class="x axis" x="890" y="650" font-size="15px" style="text-anchor: end;">msun77</text><text class="title" x="445" y="20" font-size="20px" style="text-anchor: middle;">Visualizing Earthquake Counts by State</text><rect class="labels" x="840" y="100" width="15" height="15" style="fill: rgb(179, 48, 64);"></rect><rect class="labels" x="840" y="120" width="15" height="15" style="fill: rgb(210, 92, 77);"></rect><rect class="labels" x="840" y="140" width="15" height="15" style="fill: rgb(242, 180, 71);"></rect><text class="labels" x="858" y="115" font-size="20px" text-anchor="left" style="alignment-baseline: middle;">7.0+</text><text class="labels" x="858" y="135" font-size="20px" text-anchor="left" style="alignment-baseline: middle;">6_6.9</text><text class="labels" x="858" y="155" font-size="20px" text-anchor="left" style="alignment-baseline: middle;">5_5.9</text><g class="layer" fill="#b33040"><rect width="98.87323943661971" x="70.98591549295776" y="555" height="45"></rect><rect width="98.87323943661971" x="180.84507042253523" y="569" height="31"></rect><rect width="98.87323943661971" x="290.70422535211264" y="580" height="20"></rect><rect width="98.87323943661971" x="400.5633802816901" y="547" height="53"></rect><rect width="98.87323943661971" x="510.4225352112676" y="562" height="38"></rect><rect width="98.87323943661971" x="620.2816901408451" y="555" height="45"></rect><rect width="98.87323943661971" x="730.1408450704225" y="555" height="45"></rect></g><g class="layer" fill="#d25c4d"><rect width="98.87323943661971" x="70.98591549295776" y="410" height="145"></rect><rect width="98.87323943661971" x="180.84507042253523" y="333" height="236"></rect><rect width="98.87323943661971" x="290.70422535211264" y="377" height="203"></rect><rect width="98.87323943661971" x="400.5633802816901" y="459" height="88"></rect><rect width="98.87323943661971" x="510.4225352112676" y="442" height="120"></rect><rect width="98.87323943661971" x="620.2816901408451" y="408" height="147"></rect><rect width="98.87323943661971" x="730.1408450704225" y="445" height="110"></rect></g><g class="layer" fill="#f2b447"><rect width="98.87323943661971" x="70.98591549295776" y="237" height="173"></rect><rect width="98.87323943661971" x="180.84507042253523" y="42" height="291"></rect><rect width="98.87323943661971" x="290.70422535211264" y="89" height="288"></rect><rect width="98.87323943661971" x="400.5633802816901" y="346" height="113"></rect><rect width="98.87323943661971" x="510.4225352112676" y="290" height="152"></rect><rect width="98.87323943661971" x="620.2816901408451" y="208" height="200"></rect><rect width="98.87323943661971" x="730.1408450704225" y="327" height="118"></rect></g><text class="text" text-anchor="middle" x="120.42253521126761" y="232">649</text><text class="text" text-anchor="middle" x="230.2816901408451" y="37">996</text><text class="text" text-anchor="middle" x="340.14084507042253" y="84">913</text><text class="text" text-anchor="middle" x="450" y="341">454</text><text class="text" text-anchor="middle" x="559.8591549295775" y="285">553</text><text class="text" text-anchor="middle" x="669.7183098591549" y="203">700</text><text class="text" text-anchor="middle" x="779.5774647887324" y="322">488</text></svg>
+
+              
+Select year: 
+<select id="year"><option>2017</option><option>2018</option></select>
+
+<input type="checkbox" id="sort"> 
+
+<script>
+
+
+
+
+d3.csv("earthquake.csv").then(d => chart(d))
+
+function chart(csv) {
+
+  var keys = csv.columns.slice(2);
+
+  var year   = [...new Set(csv.map(d => d.Year))]
+  var states = [...new Set(csv.map(d => d.State))]
+
+  var options = d3.select("#year").selectAll("option")
+    .data(year)
+  .enter().append("option")
+    .text(d => d)
+
+
+  var svg = d3.select("#chart"),
+    margin = {top: 40, left: 60, bottom: 30, right: 50},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom;
+
+  var x = d3.scaleBand()
+    .range([margin.left, width - margin.right])
+    .padding(0.1)
+
+  var y = d3.scaleLinear()
+    .rangeRound([height - margin.bottom, margin.top])
+
+  var xAxis = svg.append("g")
+    .attr("transform", `translate(0,${height - margin.bottom})`)
+    .attr("class", "x-axis")
+
+  var yAxis = svg.append("g")
+    .attr("transform", `translate(${margin.left},0)`)
+    .attr("class", "y-axis")
+
+   
+
+  svg.append("text")
+      .attr("class", "x label")
+      .attr("text-anchor", "end")
+      .attr("x", width/2)
+      .attr("y", height +25)
+      .attr("font-size", "15px")
+      .text("State");
+
+    svg.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("x", -height/2+35)
+    .attr("y", 10)
+    .attr("font-size", "15px")
+    .attr("transform", "rotate(-90)")
+    .text("Number of Earthquakes");
+
+   svg.append("text")
+   .attr("class", "x axis")
+   .attr("x", width)
+   .attr("y", height + 20 )
+   .attr("font-size", "15px")
+   .style("text-anchor","end")
+   .text("msun77"); 
+
+   svg.append("text")
+   .attr("class", "title")
+   .attr("x", width/2)
+   .attr("y", 20)
+   .style("text-anchor","middle")
+   .attr("font-size", "20px")
+   .text("Visualizing Earthquake Counts by State");
+
+
+   var colors = {'5_5.9': '#f2b447', '6_6.9': '#d25c4d', '7.0+': "#b33040"};
+
+    var size = 15
+    svg.selectAll("labels")
+    .data(keys)
+    .enter()
+    .append("rect")
+    .attr("class","labels")
+    .attr("x", width - margin.right)
+    .attr("y", function(d,i){ return 100 + i*(size+5)})
+    .attr("width", size)
+    .attr("height", size)
+    .style("fill", function(d){ return colors[d]})
+
+    svg.selectAll("labels")
+      .data(keys)
+      .enter()
+      .append("text")
+      .attr("class","labels")
+      .attr("x", width - margin.right + size*1.2)
+      .attr("y", function(d,i){ return 100 + i*(size+5) + size})
+      .attr("font-size","20px")
+      .text(function(d){ return d})
+      .attr("text-anchor", "left")
+      .style("alignment-baseline", "middle")
+
+
+  var z = d3.scaleOrdinal()
+    .range(["#b33040", "#d25c4d", "#f2b447"])
+    .domain(keys);
+
+  update(d3.select("#year").property("value"), 0)
+
+  function update(input, speed) {
+
+    var data = csv.filter(f => f.Year == input)
+
+    data.forEach(function(d) {
+      d.total = d3.sum(keys, k => +d[k])
+      return d
+    })
+
+    y.domain([0, d3.max(data, d => d3.sum(keys, k => +d[k]))]).nice();
+
+    svg.selectAll(".y-axis").transition().duration(speed)
+      .call(d3.axisLeft(y).ticks(null, "s"))
+
+    data.sort(d3.select("#sort").property("checked")
+      ? (a, b) => b.total - a.total
+      : (a, b) => states.indexOf(a.State) - states.indexOf(b.State))
+
+    x.domain(data.map(d => d.State));
+
+    svg.selectAll(".x-axis").transition().duration(speed)
+      .call(d3.axisBottom(x).tickSizeOuter(0))
+
+    var group = svg.selectAll("g.layer")
+      .data(d3.stack().keys(keys)(data), d => d.key)
+
+    group.exit().remove()
+
+    group.enter().append("g")
+      .classed("layer", true)
+      .attr("fill", d => z(d.key));
+
+    var bars = svg.selectAll("g.layer").selectAll("rect")
+      .data(d => d, e => e.data.State);
+
+    bars.exit().remove()
+
+    bars.enter().append("rect")
+      .attr("width", x.bandwidth())
+      .merge(bars)
+    .transition().duration(speed)
+      .attr("x", d => x(d.data.State))
+      .attr("y", d => y(d[1]))
+      .attr("height", d => y(d[0]) - y(d[1]))
+
+    var text = svg.selectAll(".text")
+      .data(data, d => d.State);
+
+    text.exit().remove()
+
+    text.enter().append("text")
+      .attr("class", "text")
+      .attr("text-anchor", "middle")
+      .merge(text)
+    .transition().duration(speed)
+      .attr("x", d => x(d.State) + x.bandwidth() / 2)
+      .attr("y", d => y(d.total) - 5)
+      .text(d => d.total)
+  }
+
+  var select = d3.select("#year")
+    .on("change", function() {
+      update(this.value, 750)
+    })
+
+  var checkbox = d3.select("#sort")
+    .on("click", function() {
+      update(select.property("value"), 750)
+    })
+
+}
+        
+</script>
+
+</body></html>
